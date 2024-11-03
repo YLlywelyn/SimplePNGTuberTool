@@ -20,7 +20,9 @@ def onHotkey(i: int) -> None:
 
 mainWindow = tkinter.Tk()
 mainWindow.title("Simple PNG Tool")
-mainWindow.minsize(300, 300)
+mainWindow.minsize(500, 500)
+
+# TODO: Add a widget for the avatar image
 
 bg = BindGlobal(widget=mainWindow)
 bg.gbind("<Control-Key>", onKeyPress)
