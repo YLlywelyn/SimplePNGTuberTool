@@ -1,0 +1,17 @@
+[config]
+# blink_rate should either be a single number or an array of two numbers: the min and max time between blinks
+blink_rate = [ 3, 5 ]
+# blink_duration should either be a single number or an array of two numbers: the min and max duration
+blink_duration = 0.2
+
+[[avatars]]
+mouth_closed_eyes_open = "./avatars/avatar1/mouth_closed_eyes_open.png"
+mouth_closed_eyes_closed = "./avatars/avatar1/mouth_closed_eyes_closed.png"
+mouth_open_eyes_open = "./avatars/avatar1/mouth_open_eyes_open.png"
+mouth_open_eyes_closed = "./avatars/avatar1/mouth_open_eyes_closed.png"
+
+[[avatars]]
+mouth_closed_eyes_open = "./avatars/avatar2/mouth_closed_eyes_open.png"
+mouth_closed_eyes_closed = "./avatars/avatar2/mouth_closed_eyes_closed.png"
+mouth_open_eyes_open = "./avatars/avatar2/mouth_open_eyes_open.png"
+mouth_open_eyes_closed = "./avatars/avatar2/mouth_open_eyes_closed.png"

@@ -1,5 +1,8 @@
-import tkinter
+import tkinter, toml
 from bindglobal import BindGlobal
+
+config = toml.load("./config.toml")
+print(config)
 
 def onKeyPress(event):
     match event.char:
